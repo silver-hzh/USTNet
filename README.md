@@ -1,2 +1,3 @@
 # USTNet
 This repository contains the official implementation of USTNet: A U-Net Swin Transformer Network for Aerial Visible-to-Infrared Image Translation, along with the upgraded Aerial Visible-to-Infrared Image Dataset (AVIID). Our research presents a novel cross-modal image translation framework that leverages Swin Transformer blocks within a U-Net architecture, specifically designed for aerial remote sensing applications.
+## Code of USTNet
