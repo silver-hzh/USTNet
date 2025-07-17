@@ -5,6 +5,9 @@ This repository contains the official implementation of USTNet: A U-Net Swin Tra
 - Python 3.7 or higher 
 - Pytorch 1.8.0, torchvison 0.9.0 
 - Tensorboard, TensorboardX, Pyyaml, Pillow, dominate, visdom, timm
+
+# Availability of Datasets
+DroneVehicle datasets can be downloaded from <[https://pan.baidu.com/s/1D4l3wXmAVSG2ywL6QLGURw?pwd=hrqf](https://pan.baidu.com/s/18CI6cbg4tRK7h7CdmapruQ?pwd=feqh)>, the code is feqh. 
 ## Usage
 Download the USTNet code. Make the `datasets` folder and put the downloaded datasets in the `Datasets` folder. 
 ### Pretraining:
@@ -30,3 +33,5 @@ python test.py --dataroot ./datasets/AVIID --name AVIID_USTNet_Use_Pretrain --wh
 | **FID** <br> **KID** | Frechet Inception Distance <br> Kernel Inception Distance | [torch-fidelity](https://github.com/toshas/torch-fidelity) | `kid-subset-size=500` (for AVIID dataset) |
 | **LPIPS** | Learned Perceptual Image Patch Similarity | [LPIPS PyTorch](https://github.com/richzhang/PerceptualSimilarity) | net='alex' |
 | **SSIM** <br> **PSNR** <br> **RMSE** | Structural Similarity <br> Peak Signal-to-Noise Ratio <br> Root Mean Square Error | `metrics/` | - |
+
+
