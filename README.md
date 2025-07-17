@@ -28,5 +28,5 @@ python test.py --dataroot ./datasets/AVIID --name AVIID_USTNet_Use_Pretrain --wh
 | Metric | Description | Implementation | Key Parameters |
 |--------|-------------|----------------|----------------|
 | **FID** <br> **KID** | Frechet Inception Distance <br> Kernel Inception Distance | [torch-fidelity](https://github.com/toshas/torch-fidelity) | `kid-subset-size=500` (for AVIID dataset) |
-| **LPIPS** | Learned Perceptual Image Patch Similarity | [LPIPS PyTorch](https://github.com/richzhang/PerceptualSimilarity) | Network: AlexNet |
+| **LPIPS** | Learned Perceptual Image Patch Similarity | [LPIPS PyTorch](https://github.com/richzhang/PerceptualSimilarity) | net='alex' |
 | **SSIM** <br> **PSNR** <br> **RMSE** | Structural Similarity <br> Peak Signal-to-Noise Ratio <br> Root Mean Square Error | `metrics/` | - |
