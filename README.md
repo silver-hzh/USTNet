@@ -7,7 +7,8 @@ This repository contains the official implementation of USTNet: A U-Net Swin Tra
 - Tensorboard, TensorboardX, Pyyaml, Pillow, dominate, visdom, timm
 
 # Availability of Datasets
-DroneVehicle datasets can be downloaded from <[https://pan.baidu.com/s/1D4l3wXmAVSG2ywL6QLGURw?pwd=hrqf](https://pan.baidu.com/s/18CI6cbg4tRK7h7CdmapruQ?pwd=feqh)>, the code is feqh. 
+DroneVehicle dataset can be downloaded from <[https://pan.baidu.com/s/1D4l3wXmAVSG2ywL6QLGURw?pwd=hrqf](https://pan.baidu.com/s/18CI6cbg4tRK7h7CdmapruQ?pwd=feqh)>, code: feqh. 
+The updated AVIID dataset can be downloaded from <https://pan.baidu.com/s/1M2WlHt1qqAuQ5QnUQSQ5lw?pwd=si8j> Code: si8j.
 ## Usage
 Download the USTNet code. Make the `datasets` folder and put the downloaded datasets in the `Datasets` folder. 
 ### Pretraining:
