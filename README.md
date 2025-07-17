@@ -1,14 +1,17 @@
 # USTNet
 This repository contains the official implementation of USTNet: A U-Net Swin Transformer Network for Aerial Visible-to-Infrared Image Translation, along with the upgraded Aerial Visible-to-Infrared Image Dataset (AVIID). Our research presents a novel cross-modal image translation framework that leverages Swin Transformer blocks within a U-Net architecture, specifically designed for aerial remote sensing applications.
+
+# Availability of Datasets
+DroneVehicle dataset can be downloaded from <[https://pan.baidu.com/s/1D4l3wXmAVSG2ywL6QLGURw?pwd=hrqf](https://pan.baidu.com/s/18CI6cbg4tRK7h7CdmapruQ?pwd=feqh)>, code: feqh. 
+The updated AVIID dataset can be downloaded from <https://pan.baidu.com/s/1M2WlHt1qqAuQ5QnUQSQ5lw?pwd=si8j> Code: si8j.
+
 # Code of USTNet
 ## Requirements
 - Python 3.7 or higher 
 - Pytorch 1.8.0, torchvison 0.9.0 
 - Tensorboard, TensorboardX, Pyyaml, Pillow, dominate, visdom, timm
 
-# Availability of Datasets
-DroneVehicle dataset can be downloaded from <[https://pan.baidu.com/s/1D4l3wXmAVSG2ywL6QLGURw?pwd=hrqf](https://pan.baidu.com/s/18CI6cbg4tRK7h7CdmapruQ?pwd=feqh)>, code: feqh. 
-The updated AVIID dataset can be downloaded from <https://pan.baidu.com/s/1M2WlHt1qqAuQ5QnUQSQ5lw?pwd=si8j> Code: si8j.
+
 ## Usage
 Download the USTNet code. Make the `datasets` folder and put the downloaded datasets in the `Datasets` folder. 
 ### Pretraining:
